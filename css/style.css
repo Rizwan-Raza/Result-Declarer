@@ -1,0 +1,39 @@
+.root {
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+}
+.hbox {
+	-fx-padding: 10px 10px;
+	-fx-spacing: 10px;
+	/*-fx-background-color: #ff0000;*/
+}
+.text-field, .choice-box {
+	-fx-pref-width: 350px;
+}
+.label {
+	-fx-pref-width: 100px;
+	-fx-text-fill: #ffffff;
+	-fx-effect: dropshadow(gaussian,#000000,5,0,0,2);
+}
+.vbox {
+	-fx-padding: 20px 20px;
+	-fx-alignment: center-right;
+	-fx-background-image: url("../img/alone.jpg");
+}
+.button {
+	/*-fx-background-color: #00b0b0;*/
+	/*-fx-text-fill: #ffffff;*/
+	/*-fx-border-color: #009898;*/
+	/*-fx-border-radius: 5px;*/
+	/*-fx-background-radius: 5px;*/
+}
+.choice-box .context-menu {
+	-fx-pref-width: 340px;
+	-fx-background-color: rgba(0,0,0,0.8);
+}
+.PASSED {
+	-fx-background-color: #80ff80;
+}
+.FAILED {
+	-fx-background-color: #ff8080;
+}
